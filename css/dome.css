@@ -1,0 +1,195 @@
+.juzhong{
+    margin: 0 auto;
+    position: relative;
+}
+/*页眉样式定义*/
+.box-one{
+    background: #f0f0f0;
+    height: 34px;
+    line-height: 34px;
+}
+.font-one{
+    color: #999;
+    border-right: 1px solid #e3e3e3;
+    padding: 0 9px;
+    font-size: 12px;
+}
+.font-one:hover{
+    color: #666;
+}
+.last-one{
+    border-right: none;
+}
+
+/*LOGO和搜索*/
+.two-box{
+    height: 107px;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 26px;
+}
+.input-group {
+    top: 37px;
+    left: 188px;
+}
+/*导航*/
+.navbar {
+    z-index: 1;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: bold;
+    font-size: larger;
+}
+.dropdown-menu>li>a:hover{
+    background: rgba(158, 158, 158, 0.54);;
+}
+/*轮播图*/
+.carousel-control.left,.carousel-control.right{
+    background: none;
+}
+.ziti{
+    display: inline;
+    background: rgba(0,0,0,0.3);
+    padding: 4px;
+}
+.lunbo{
+    margin-top: -20px;
+    background: url("../images/beihua.jpg");
+    width: 100%;
+}
+#lv{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+.weizhi{
+    bottom: 0;
+}
+.lunbo2{
+    margin-top: -25px;
+}
+/*热点新闻区*/
+.five-box{
+    padding: 61px 0 27px 0;
+}
+.lunbo3{
+    background: url("../images/beihua.jpg");
+    width: 100%;
+}
+#lv2{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+}
+.tongzhi{
+    background: url("../images/tongzhi.png");
+    width: 302px;
+    height: 236px;
+    margin: 0 auto;
+}
+.wenzi{
+    background: #3B4D63;
+    display: inline-block;
+    line-height: 29px;
+    color: #FFF;
+    padding: 2px 20px;
+    font-size: large;
+    font-weight: 800;
+}
+.tex{
+    padding: 18px 5px 0px;
+    margin-bottom: -10px;
+}
+.yangshi{
+    width: 269px;
+    margin: 0 auto;
+}
+.bianju{
+    padding-bottom: 50px;
+}
+.ziti2{
+    margin-bottom: -45px;
+}
+.fiv-juzhong{
+    padding: 0 0 35px 0;
+}
+.more a{
+    text-decoration: none;
+    color: white;
+}
+.more span{
+    margin-top: 1px;
+}
+.more{
+    padding: 1px 2px;
+    background: #1084A7;
+    border-radius: 5px;
+    margin: 7px;
+}
+.tongzhi a{
+    text-decoration: none;
+}
+.hz{
+    color: #666;
+    float: left;
+    margin: 21px 21px 0;
+}
+/*展示区*/
+#lv3{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+.six-box{
+    height: 243px;
+    width: 310px;
+    padding: 0 20px;
+    background: #F6F8FA;
+    margin-bottom: 24px;
+    border-top: 4px solid #A40C22;}
+.six-big{
+    font-weight: 700;
+    margin-top: -10px;
+    color:white;
+}
+.six-inline{
+    display: inline;
+}
+.six-bt{
+    margin: -63px 0 0 98px;
+}
+.six-wb{
+    margin: 29px 0;
+}
+@media (max-width: 768px) {
+    .lunbo{
+        background:none;
+    }
+    .lunbo3{
+        background:none;
+    }
+    .six-big{
+        color: #101010;
+    }
+    .six-box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row{
+        margin: 0;
+    }
+}
+/*页脚*/
+.seven{
+    padding: 5px 0;
+}
+.seven-yj{
+    margin: 0 5px;
+}
+.seven-jz{;
+    margin: 0 auto;
+}
